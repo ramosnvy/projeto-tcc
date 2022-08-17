@@ -350,7 +350,27 @@ h1{
         border-right: 1px solid #747474;
 
     }
+
 }
+
+/* BUTTOM Animals */
+
+
+.container #btnAnimal {
+    display: flex;
+    margin-top: 10em;
+    margin-bottom: 9em;
+    padding: 2em 1em;
+    position: relative;
+
+
+}
+
+
+
+
+/* CARD ADOÇÃO */
+
 .card-deck {
     display: flex;
     margin-top: 10em;
