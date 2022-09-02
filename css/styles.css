@@ -7,7 +7,7 @@ h1{
 }
 
 .bg-primary-color {
-    background-color: rgb(2, 56, 23);
+    background-color: rgb(255, 255, 255);
 }
 
 .bg-secondary-color {
@@ -27,7 +27,7 @@ h1{
 }
 
 .third-color{
-    color: #fff;
+    color: #000000;
 }
 
 /* NAVBAR */
@@ -47,6 +47,7 @@ body {
 
 #navbar {
     border-bottom: 1px solid #7a7a7a;
+
 }
 
 #navbar a:hover {
@@ -83,6 +84,7 @@ body {
 #navbar-items .nav-item {
     margin: 0 1em;
     font-size: 20px;
+
 
 }
 
