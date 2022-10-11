@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TCC</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+
+    <!-- Google Fonts Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- CSS do projeto -->
+    <link rel="stylesheet" href="css/styles.css">
+
+
+
+
+</head>
+    <body>
+
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+        <div class="container py-3">
+            <a href="#" class="navbar-brand third-color">
+                <img src="img/logo.png" alt="logo">
+                <span></span>
+            </a>
+            <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbar-items"
+                    aria-controls="navbar-items"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+            >
+
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link third-color">Institucional</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="adoteCao.html" class="nav-link active third-color" >Adote</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="doacao.html" class="nav-link third-color" >Doações</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link third-color" >Ações</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link third-color" >Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+>
+
+
+
+    <!-- SLIDER -->
+
+        <div class="container" id="slider-container">
+            <div class="carousel slide" id="slider" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button
+                    type="button" 
+                    class="active" 
+                    data-bs-target="#slider" 
+                    data-bs-slide-to="0"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                    >
+                    </button>
+                    <button
+                    type="button" 
+                    data-bs-target="#slider" 
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                    >
+                    </button>
+                    <button
+                     type="button" 
+                    data-bs-target="#slider" 
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                    >
+                    </button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/teste1.png" 
+                        alt="IMG1" class="d-block w-100">
+                        <div class="carousel-caption">
+                            <h5>Teste legenda</h5>
+                            <a href="#" class="btn btn-dark"> Ver Projetos</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="img/teste1.png" 
+                        alt="IMG3" class="d-block w-100">
+                        <div class="carousel-caption">
+                            <h5>Teste legenda2</h5>
+                            <a href="#" class="btn btn-dark"> Ver Projetos</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="img/teste1.png"
+                        alt="IMG2" class="d-block w-100">
+                        <div class="carousel-caption">
+                            <h5>Teste legenda3</h5>
+                            <a href="#" class="btn btn-dark"> Ver Projetos</a>
+                        </div>
+                    </div>
+                </div>
+                <button
+                 class="carousel-control-prev" 
+                 type="button" data-bs-target="#slider" 
+                 data-bs-slide="prev">
+                
+                 <i class="bi bi-chevron-compact-left"></i>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                 class="carousel-control-next" 
+                 type="button" data-bs-target="#slider" 
+                 data-bs-slide="next">
+                
+                 <i class="bi bi-chevron-compact-right"></i>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- MINI BANNERS -->
+        <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
+            <div class="row">
+                <h1></h1>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i class="bi bi-cloud-rain-heavy primary-color"></i>
+                        <div class="card-body">
+                            <h5 class="card-title primary-color">Coragem</h5>
+                            <p class="card-text primary-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut tenetur maiores debitis deleniti 
+                                voluptatum, omnis architecto blanditiis quos dolore harum error alias nisi facilis excepturi nemo accusamus est dolor ulla
+                            </p>
+                            <a href="Saber Mais" class="btn btn-dark"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i class="bi bi-hand-thumbs-up primary-color"></i>
+                        <div class="card-body">
+                            <h5 class="card-title primary-color">Responsabilidade</h5>
+                            <p class="card-text primary-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut tenetur maiores debitis deleniti 
+                                voluptatum, omnis architecto blanditiis quos dolore harum error alias nisi facilis excepturi nemo accusamus est dolor ulla
+                            </p>
+                            <a href="Saber Mais" class="btn btn-dark"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <i class="bi bi-diagram-3 primary-color"></i>
+                        <div class="card-body">
+                            <h5 class="card-title primary-color">Impacto</h5>
+                            <p class="card-text primary-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut tenetur maiores debitis deleniti 
+                                voluptatum, omnis architecto blanditiis quos dolore harum error alias nisi facilis excepturi nemo accusamus est dolor ulla
+                            </p>
+                            <a href="Saber Mais" class="btn btn-dark"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- DESTAQUES-->
+        
+        <div class="container" id="featured-container">
+            <div class="col-12">
+                <h2 class="title primary-color">Trabalhos em Destaque</h2>
+                <p class="subtitle primary-color">Conheça nossos projetos mais desafiadores
+                </p>
+            </div>
+            <div class="col-12" id="featured-images">
+                <div class="row g-4">
+                    <div class="col-12 col-md-4">
+                        <img src="https://www.petz.com.br/blog/wp-content/uploads/2019/02/resgate-de-animais.jpg" alt="Projeto 1" class="img-fluid">
+                        <div class="banner-content">
+                            <p class="primary-color">Categoria</p>
+                            <h3>Nome do Projeto</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="https://www.petz.com.br/blog/wp-content/uploads/2019/02/resgate-de-animais.jpg" alt="Projeto 2" class="img-fluid">
+                        <div class="banner-content">
+                            <p class="primary-color">Categoria</p>
+                            <h3>Nome do Projeto</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="https://www.petz.com.br/blog/wp-content/uploads/2019/02/resgate-de-animais.jpg" alt="Projeto 3" class="img-fluid">
+                        <div class="banner-content">
+                            <p class="primary-color">Categoria</p>
+                            <h3>Nome do Projeto</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- INFO -->
+        <div class="container" id="info-container">
+                <div class="col-12">
+                    <h2 class="title primary-color">Detalhes Importantes</h2>
+                    <p class="subtitle primary-color">Saiba mais 
+                    </p>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-md-5" id="info-banner">
+                            <img src="https://thumbs.dreamstime.com/z/infographic-template-business-presentations-information-banner-infographic-template-business-presentations-104701888.jpg" 
+                            alt="Info" class="img-fluid">
+                        </div>
+                        <div class="col-12 col-md-7 bg-secondary-color" id="info-content">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h2 class="title primary-color">Estes dados fazem a diferença</h2>
+                                    <p class="subtitle primary-color">Lorem ipsum dolor sit amet consectetur 
+                                        adipisicing elit. Natus quia voluptatibus inventore maxime incidunt consequatur
+                                         cupiditate molestias repudiandae sint, officiis, voluptatum optio, doloremque dolor 
+                                         vero. Repudiandae assumenda doloremque rem fuga. 
+                                    </p>
+                                </div>
+                                <div class="col-12" id="info-numbers">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <h3 class="primary-color">000</h3>
+                                            <p class="primary-color">Lorem ipsum dolor sit amet consectetur</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <h3 class="primary-color">000</h3>
+                                            <p class="primary-color">Lorem ipsum dolor sit amet consectetur</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <h3 class="primary-color">000</h3>
+                                            <p class="primary-color">Lorem ipsum dolor sit amet consectetur</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <a href="" class="btn btn-dark">Saber Mais</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="container-fluid bg-dark-color" id="footer">
+            <div class="container">
+                <div class="row">
+                    <!--FOOTER TOP-->
+                    <div class="col-12" id="footer-top">
+                        <div class="row justify-content-between">
+                            <div class="col-3"><h2>ONG Todo Bicho</h2></div>
+                            <div class="col-3" id="social-icons">
+                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--FOOTER DETAILS-->
+                    <div class="col-12" id="footer-details">
+                        <div class="row">
+
+                            <div class="col-12 col-md-4" id="contact-container">
+                                <h4>Formas de contato</h4>
+                                <p class="secondary-color">(00)0000000</p>
+                                <p class="secondary-color">contato@Tcc</p>
+                            </div>
+                            <div class="col-12 col-md-4" id="links-container">
+                             <div class="row">
+                                 <h4>Você pode estar procurando por:</h4>
+                                 <div class="col-6">
+                                     <ul class="list-unstyled">
+                                         <li><a href="#" class="secondary-color">Projetos</a></li>
+                                         <li><a href="#" class="secondary-color">Projetos</a></li>
+                                         <li><a href="#" class="secondary-color">Projetos</a></li>
+                                     </ul>
+                                 </div>
+                                 <div class="col-6">
+                                     <ul class="list-unstyled">
+                                         <li><a href="#" class="secondary-color">Projetos</a></li>
+                                         <li><a href="#" class="secondary-color">Projetos</a></li>
+                                         <li><a href="#" class="secondary-color">Projetos</a></li>
+                                     </ul>
+                                 </div>
+
+                             </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--FOOTER BOTTOM-->
+                    <div class="col-12" id="footer-bottom">
+                        <div class="row justify-content-between">
+                            <div class="col-112 col-md-3">
+                                <p class="secondary-color">ONG Todo Bicho &copy; 2022 </p>
+                            </div>
+                            <div class="col-112 col-md-3">
+                                <p class="secondary-color"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </body>
+</html>
